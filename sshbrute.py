@@ -5,7 +5,7 @@ import socket
 import threading
 import Queue
 
-
+# From blackhat python. Need to add cli args for these:
 password_file = '/root/Documents/python/passwords.txt'
 target = '10.0.0.160'
 username = 'root'
