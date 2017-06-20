@@ -301,7 +301,7 @@ def buildArgParser():
         required=False)    
     return parser.parse_args()
 
-#This will be made into an arg eventually:
+# Results placed in /scans unless cli arg is used: 
 home_folder = '/scans'
 
 ###########################################
