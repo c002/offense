@@ -3,5 +3,7 @@ enumerator.py - Python script that uses nmap to scan all 65535 tcp ports, then b
 
 sshbrute.py - Simple script for bruteforcing SSH
 
+boot-info.py - Useful or small dhcp devices (pi, nano, etc) to have it phone home with an email once it boots.
+
 Folders: 
 blackhat_python - Scripts from the Blackhat Python book. Nothing original in here you can't find in the book
