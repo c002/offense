@@ -6,8 +6,6 @@
 # 
 # Add "/usr/bin/python /scripts/boot-info.py &" 
 # to /etc/rc.local on your raspberry pi to get network info once the Pi boots
-#
-# 
 # 
 # Be sure to update the gmail settings with un/pw
 
