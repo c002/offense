@@ -22,15 +22,10 @@ import netaddr
 
 def main():
     timestamp = getTimeStamp()
-    print timestamp
     default_route_int = getEthernet()
-    print default_route_int
     target_subnet = getTargetSubnet(default_route_int)
     subnet = target_subnet[0]
     network = target_subnet[1]
-    print target_subnet
-    print subnet
-    print network
     sendscanstartmail(timestamp,subnet)
     output_file = '/scans/' + str(network) + '-'+ timestamp + '-discovery_scan.txt'
     scannerDiscovery(subnet,output_file)
